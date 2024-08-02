@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! Isuru here I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Isuru a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hey there, I'm Isuru Rathnayaka, a Front-End Web Developer based in UAE. I'm all about creating awesome websites! I specialize in React, and I'm fluent in languages like HTML, CSS, Bootstrap, JavaScript and SQL. My goal? Making your website look great, easy to use, and totally responsive. Your satisfaction is my top priority! If you want a website that stands out, feel free to contact me. Let's chat and make something amazing together! </p>
                   <button onClick={() => window.open('https://wa.me/+94779207247', '_blank')}>
                   Let’s Connect on WhatsApp <ArrowRightCircle size={25} />
